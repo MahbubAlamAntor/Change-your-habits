@@ -10,26 +10,29 @@
         "slnt" 0;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.main-container{
+.main-container {
     margin: 0 auto;
     max-width: 90%;
 }
-header{
+
+header,
+body {
     background-color: black;
 }
 
 /* Shared Style Start Here */
- .display-flex{
+.display-flex {
     display: flex;
- }
-.btn-primary{
-    background-color: rgb(230, 83, 60); 
+}
+
+.btn-primary {
+    background-color: rgb(230, 83, 60);
     padding: 1rem 2.5rem;
     color: white;
     font-size: 1.25rem;
@@ -39,64 +42,76 @@ header{
 }
 
 /* Shared Style End Here */
-.menubar-container{
+.menubar-container {
     justify-content: space-between;
     align-items: center;
     padding: 1.25rem 0;
 }
-.fitness{
+
+.fitness {
     font-size: 3rem;
     font-weight: 800;
     color: rgb(230, 83, 60);
 }
-.menubar ul li{
+
+.menubar ul li {
     list-style: none;
     margin-left: 50px;
     padding: 5px;
     font-size: 1.25rem;
     /* border: 1px solid red; */
 }
-.menubar ul li a{
+
+.menubar ul li a {
     text-decoration: none;
 }
-.item-size{
+
+.item-size {
     color: white;
-    background-color:  rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
     padding: 8px 20px;
     border-radius: 20px;
 }
-.item-list{
+
+.item-list {
     color: rgb(255, 255, 255);
 }
 
-.hambarger-menu{
+.hambarger-menu {
     color: white;
     display: none;
 }
 
 /* navbar style end header */
-.banner-container{
+.banner-container {
     justify-content: space-between;
 }
-.banner-title{
+
+.banner-child-1 {
+    max-width: 450px;
+}
+
+.banner-child-1 h1 {
     color: rgb(255, 255, 255);
     font-weight: 900;
-    font-size: 78px;
-    max-width: 520px;
+    font-size: 4rem;
+    line-height: 120%;
 }
-.miama-font{
+
+.miama-font {
     font-family: 'Miama', sans-serif;
     font-weight: 900;
-    font-size: 8.75rem;
+    font-size: 4.85rem;
 }
-.banner-description{
+
+.banner-description {
     color: rgba(255, 255, 255, 0.5);
     letter-spacing: 0.5px;
     font-size: 1rem;
-    max-width: 520px;
     padding-top: 1.85rem;
 }
-.btn-download{
+
+.btn-download {
     font-size: 1.15rem;
     font-weight: 600;
     color: white;
@@ -104,19 +119,22 @@ header{
     border: 1px solid white;
     padding: 1rem 2.5rem;
     border-radius: 40px;
-    margin-left: 20px;
 }
-.btn-continer{
+
+.btn-continer {
     padding-top: 20px;
 }
 
 /* navbar end */
+.banner-container {
+    padding-top: 40px;
+}
 
-.healthy-image{
+.healthy-image {
     position: relative;
 }
 
-.video-tutorial{
+.video-tutorial {
     position: absolute;
     top: 73%;
     left: -39%;
@@ -130,28 +148,32 @@ header{
     align-items: center;
     gap: 10px;
 }
-.ball{
+
+.ball {
     height: 40px;
     width: 40px;
     background-color: rgb(230, 83, 60);
     border-radius: 20px;
 }
-.video-num{
+
+.video-num {
     font-size: 24px;
     font-weight: 600;
     color: rgb(250, 250, 249);
     letter-spacing: 0.5px;
 }
-.video-title{
+
+.video-title {
     font-size: 16px;
     color: rgba(239, 237, 232, 0.65);
     font-weight: 400;
     letter-spacing: 0.5px;
 }
-.free-video-container{
+
+.free-video-container {
     position: absolute;
     top: 50%;
-    right:-21%;
+    right: -21%;
     /* position: relative; */
     padding: 1rem 2rem;
     background-color: rgba(255, 255, 255, 0.1);
@@ -159,21 +181,136 @@ header{
     backdrop-filter: blur(20px);
     border-radius: 12px;
 }
-.free-video-num{
+
+.free-video-num {
     font-size: 2.5rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
 }
-.free-video-title{
+
+.free-video-title {
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.65);
 }
 
+/* banner part end */
 
-.none{
+/* habites gym part */
+.habites-gym {
+    max-width: 570px;
+    margin-top: 120px;
+}
+
+.habites-gym h1 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.habites-gym p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* .practice-container{
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+.practice-container {
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.practice-movement {
+    max-width: 230px;
+    text-align: center;
+}
+
+.practice-movement img {
+    border-radius: 50%;
+}
+
+.practice-movement h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.practice-movement p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.5px;
+    padding-top: 6px;
+}
+
+/* run style start */
+.main-run-container {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.run-container {
+    display: grid;
+    grid-template-columns: 1.25fr 0.75fr;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 100px;
+}
+.run-child{
+    max-width: 500px;
+}
+
+.run-image img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.run-child h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.run-child p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.95rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    padding-top: 14px;
+    padding-bottom: 50px;
+}
+.btn-primary-1{
+    padding: 1rem 4rem;
+    font-size: 1.15rem;
+    background-color: rgb(230, 83, 60);
+    padding: 1rem 3.5rem;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+.none {
     display: none;
 }
 
@@ -182,25 +319,56 @@ header{
 
 /* small device */
 @media screen and (max-width:576px) {
-    .menubar{
+    .menubar {
         display: none;
     }
-    .hambarger-menu{
+
+    .hambarger-menu {
         display: block;
     }
-    .healthy-image img{
-        width: 100%;
+
+    .healthy-image img {
+        width: 70%;
         height: 100%;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
     }
-    .video-tutorial{
+
+    .video-tutorial {
         top: 76%;
         left: 2%;
     }
-    .free-video-container{
+
+    .free-video-container {
         top: 43%;
-        right:9%;
+        right: 9%;
+    }
+
+    .btn-continer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-primary {
+        padding: .6rem 1rem;
+        font-size: 1rem;
+    }
+
+    .btn-download {
+        padding: .6rem 1rem;
+        font-size: 1rem;
+    }
+
+    .practice-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .run-container{
+        grid-template-columns: 1fr;
+    }
+    .run-image img{
+        margin-top: 2rem;
     }
 }
