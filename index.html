@@ -76,17 +76,17 @@
                 </div>
                 <div class="practice-movement">
                     <img src="images/movement-2.png" alt="">
-                    <h1>Movement</h1>
+                    <h1>Time</h1>
                     <p>We believe fitness should be accessible to everyone</p>
                 </div>
                 <div class="practice-movement">
                     <img src="images/movement-3.png" alt="">
-                    <h1>Movement</h1>
+                    <h1>Practice</h1>
                     <p>We believe fitness should be accessible to everyone</p>
                 </div>
                 <div class="practice-movement">
                     <img src="images/movement-4.png" alt="">
-                    <h1>Movement</h1>
+                    <h1>Weight</h1>
                     <p>We believe fitness should be accessible to everyone</p>
                 </div>
             </div>
@@ -143,35 +143,120 @@
                         <h1 class="bmi-heading-1">Calculate your BMI</h1>
                         <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or
                             access to a gym. </p>
-                        <div class="input-container">
-                            <div class="display-flex between" id="h-w-space">
-                                <div>
-                                    <input type="text" placeholder="Height/cm" id="height-cm">
-                                </div>
-                                <div>
-                                    <input type="text" placeholder="Weight/kg" id="weight-kg">
-                                </div>
+                        <!-- nesi -->
+                         <div class="bmi-input-container">
+                            <input type="text" placeholder="Height/cm">
+                            <input type="text" placeholder="Weight/kg" >
+                            <input type="text" placeholder="Age" >
+                            <div class="gender">
+                                <select name="" id="">
+                                    <option value="">Sex</option>
+                                    <option value="">Male</option>
+                                </select>
                             </div>
-                            <div class="display-flex" id="age-sex-space">
-                                <div id="age-text">
-                                    <input id="age-text-wd" type="text" placeholder="Age">
-                                </div>
-                                <div>
-                                    <select name="" id="sex-mf">
-                                    <option value="" class="">Sex</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <select name="" id="select-width" class="text-color">
-                                <option value="">Select an activity factor</option>
+                         </div>
+                         <div class="bmi-select">
+                            <select name="" id="select-color">
+                                <option value="">Select an activity</option>
                             </select>
-                            <div class="btn-size"><button class="btn-primary-2">Calculate</button></div>
-                        </div>
+                         </div>
+                         
+                            <div class="btn-size">
+                                <button class="btn-primary-2">Calculate</button>
+                            </div>
+                         
                     </div>
                 </div>
             </div>
         </section>
+        <section class="main-container">
+                <div class="bmi-team-container">
+                    <h1 class="team-title">Meet Our Team</h1>
+                    <p class="team-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                </div>
+        </section>
+
+        <!-- trainer list start -->
+
+        <section class="main-container">
+            <div class="trainer-container">
+                <div class="trainer-list">
+                    <img src="images/trainer1.png" alt="">
+                    <div class="trainer-name-container-1">
+                        <h2 class="trainer-name">Jerame Bell</h2>
+                        <p class="trainer-title">Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer-list">
+                    <img src="images/trainer2.png" alt="">
+                    <div class="trainer-name-container-1">
+                        <h2 class="trainer-name">Cameron Williamson</h2>
+                        <p class="trainer-title">Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer-list">
+                    <img src="images/trainer3.png" alt="">
+                    <div class="trainer-name-container-1">
+                        <h2 class="trainer-name">Darrell Steward</h2>
+                        <p class="trainer-title">Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer-list">
+                    <img src="images/trainer4.png" alt="">
+                    <div class="trainer-name-container-1">
+                        <h2 class="trainer-name">Dianne Russell</h2>
+                        <p class="trainer-title">Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer-list">
+                    <img src="images/trainer5.png" alt="">
+                    <div class="trainer-name-container-1">
+                        <h2 class="trainer-name">Cody Fisher</h2>
+                        <p class="trainer-title">Trainer</p>
+                    </div>
+                </div>
+                <div class="trainer-list">
+                    <img src="images/trainer6.png" alt="">
+                    <div class="trainer-name-container-1">
+                        <h2 class="trainer-name">Theresa Webb</h2>
+                        <p class="trainer-title">Trainer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- trainer-list end -->
     </main>
+    <!-- footer section start here -->
+    <footer class="main-container">
+        <div class="footer-container display-flex">
+            <div class="footer-fitness">
+                <h1>Fitness</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sint accusantium. Dolores quibusdam earum est labore voluptatibus voluptas maxime. Minima.</p>
+            </div>
+            <div class="footer-started-container display-flex">
+                <div class="footer-service">
+                    <h1>Get Started</h1>
+                    <ul>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Affiate Program</a></li>
+                        <li><a href="">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-service">
+                    <h1>Get Started</h1>
+                    <ul>
+                        <li><a href="">Fitness</a></li>
+                        <li><a href="">Platform</a></li>
+                        <li><a href="">Workout Libary</a></li>
+                        <li><a href="">App Design</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="footer-copyright">All right reserved &copy;Fitness 2024</p>
+    </footer>
 </body>
 
 </html>
