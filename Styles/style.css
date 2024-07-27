@@ -314,6 +314,8 @@ body {
 /* Bmi Style Section */
 .bmi-container{
     justify-content: space-between;
+    margin-top: 4rem;
+    padding: 3rem 0;
 }
 .bmi-text h1 {
     font-size: 48px;
@@ -340,13 +342,6 @@ body {
     color: white;
     padding-bottom: 3rem;
 }
-
-.bmi-container{
-    margin-top: 4rem;
-    padding: 3rem 0;
-}
-
-
 .bmi-table,
 table,
 th,
@@ -355,7 +350,6 @@ td {
     border-collapse: collapse;
     padding: 1.5rem 2.5rem;
 }
-
 .bmi-title {
     color: white;
     font-size: 16px;
@@ -579,12 +573,12 @@ td {
 .admin-info-container{
     padding-top: 4px;
 }
-.admin-title{
+.admin-title, .color-admin{
     color: white;
     font-weight: 600;
 }
 .blog-date{
-    color: white;
+    color: rgba(243, 225, 225, 0.918);
 }
 .admin-info{
     padding-left: 10px;
@@ -595,9 +589,6 @@ td {
     color: white;
     font-weight: 500;
     font-size: 0.95rem;
-}
-.color-admin{
-    color: white;
 }
 .color-file{
     color: rgba(255, 255, 255, 0.87);
@@ -610,11 +601,24 @@ td {
 }
 .btn-read{
     margin-top: 1rem;
-    border: none;
-    padding: 1.25rem 2.5rem;
+    border:none;
+    padding: 1rem 2rem;
     background-color: #e79e5e;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+}
+.btn-entry{
+    margin: 3rem auto;
+    background-color: #ffbd03;
+    font-size: 1.25rem;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+.btn-entry a{
+    text-decoration: none;
+    color: white;
 }
 /* Creative Section style end */
 
@@ -782,18 +786,6 @@ footer hr{
         flex-direction: column;
         gap: 3rem;
     }
-    /* #h-w-space input{
-        font-size: 0.9rem;
-        padding: 1rem 0rem 1rem .8rem;
-    }
-    #sex-mf{
-        padding: 1rem 7.6rem 1rem 1rem;
-        font-size: .9rem;
-    }
-    #age-text input{
-        font-size: .9rem;
-        padding: 1rem 0rem 1rem 1rem;
-    } */
 
     /* MEAT our team section */
     .team-description{
@@ -805,7 +797,30 @@ footer hr{
     /* creative section */
     .blog-container{
         flex-direction: column;
-        width: 100%;
+        width: 90%;
+        align-items: start;
+        margin: 0;
+    }
+    .blog-content{
+        /* max-width: 350px; */
+    }
+    .blog-title{
+        font-size: 1.7rem;
+    }
+    .admin-content{
+        gap: 0;
+    }
+    .admin-title{
+        font-size: 0.9rem;
+    }
+    .admin-info h5{
+        font-size: 0.6rem;
+    }
+    .blog-date p{
+        font-size: 0.9rem;
+    }
+    .blog-description p{
+        font-size: 0.8rem;
     }
 
     /* footer section */
