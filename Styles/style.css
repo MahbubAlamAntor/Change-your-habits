@@ -517,10 +517,122 @@ td {
 }
 /* Meat our team section end */
 
-/* footer section start */
+/* Creative Section style start here */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-container{
+    max-width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-heading{
+    color: #e67e22;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 6rem;
+}
+.blog-title{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 4rem;
+    /* padding-top: 5rem; */
+}
+.blog-content{
+    max-width: 425px;
+    padding-top: 2rem;
+}
+.blog-content img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.admin-content{
+    gap: 1rem;
+    align-items: center;
+    padding-top: 0.8rem;
+}
+.blog-date{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: red;
+    padding: .5rem;
+    text-align: center;
+    /* align-items: center; */
+}
+.admin-info-container{
+    padding-top: 4px;
+}
+.admin-title{
+    color: white;
+    font-weight: 600;
+}
+.blog-date{
+    color: white;
+}
+.admin-info{
+    padding-left: 10px;
+    gap: 5px;
+    align-items: center;
+}
+.admin-info h5{
+    color: white;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+.color-admin{
+    color: white;
+}
+.color-file{
+    color: rgba(255, 255, 255, 0.87);
+}
+.blog-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 1.5rem;
+}
+.btn-read{
+    margin-top: 1rem;
+    border: none;
+    padding: 1.25rem 2.5rem;
+    background-color: #e79e5e;
+    color: white;
+    font-size: 1.5rem;
+}
+/* Creative Section style end */
+
+
+
+/* footer section start */
+.footer-container-main{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+}
+.footer-main-container{
+    max-width: 90%;
+    margin: 0 auto;
+}
 footer hr{
     opacity: 0.6;
+    max-width: 95%;
+    margin: auto;
 }
 .footer-fitness{
     max-width: 31%;
@@ -529,6 +641,7 @@ footer hr{
     justify-content: space-between;
     padding: 3rem;
     align-items: center;
+    
 }
 .footer-started-container{
     gap: 30rem;
@@ -689,6 +802,12 @@ footer hr{
     .trainer-container{
         grid-template-columns: 1fr;
     }
+    /* creative section */
+    .blog-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
     /* footer section */
     .footer-container{
         flex-direction: column;
