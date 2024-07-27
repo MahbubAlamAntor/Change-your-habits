@@ -211,7 +211,7 @@ body {
 }
 
 .habites-gym p {
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -239,7 +239,7 @@ body {
 
 .practice-movement img {
     border-radius: 50%;
-    border: 3px solid red;
+    border: 3px solid #1A1A1A;
 }
 
 .practice-movement h1 {
@@ -483,7 +483,7 @@ td {
 .trainer-container{
     padding: 2.5rem;
     /* background-color: rgba(0,0,0,0.2); */
-    background-color: red;
+    background-color: #1A1A1A;
     border-radius: 20px;
     margin-top: 3rem;
     display: grid;
@@ -523,7 +523,7 @@ footer hr{
     opacity: 0.6;
 }
 .footer-fitness{
-    max-width: 300px;
+    max-width: 31%;
 }
 .footer-container{
     justify-content: space-between;
@@ -535,13 +535,13 @@ footer hr{
 }
 
 .footer-fitness h1{
-    font-size: 90px;
+    font-size: 5.8rem;
     color: rgb(230, 83, 60);
     font-weight: 900;
 }
 .footer-fitness p{
     color: rgba(255, 255, 255, 0.5);
-    max-width: 400px;
+    /* max-width: 700px; */
     font-size: 1.1rem;
     font-weight: 400;
     padding-top: 20px;
@@ -637,7 +637,14 @@ footer hr{
         padding: .6rem 1rem;
         font-size: 1rem;
     }
+    /* habites gym */
 
+    .habites-gym{
+        margin: 0;
+    }
+    .habites-gym h1{
+        font-size: 2.35rem;
+    }
     .practice-container {
         flex-direction: column;
         gap: 2rem;
@@ -662,7 +669,7 @@ footer hr{
         flex-direction: column;
         gap: 3rem;
     }
-    #h-w-space input{
+    /* #h-w-space input{
         font-size: 0.9rem;
         padding: 1rem 0rem 1rem .8rem;
     }
@@ -673,9 +680,12 @@ footer hr{
     #age-text input{
         font-size: .9rem;
         padding: 1rem 0rem 1rem 1rem;
-    }
+    } */
 
     /* MEAT our team section */
+    .team-description{
+        width: 100%;
+    }
     .trainer-container{
         grid-template-columns: 1fr;
     }
@@ -688,5 +698,16 @@ footer hr{
         padding-bottom: 2rem;
         flex-direction: column;
         gap:2rem;
+    }
+    .footer-container{
+        margin: left;
+        align-items: start;
+        padding: 0;
+    }
+    .footer-fitness{
+        max-width: 94%;
+    }
+    .footer-fitness h1{
+        font-size: 4.5rem;
     }    
 }
