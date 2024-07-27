@@ -38,6 +38,7 @@ body {
     font-weight: 600;
     border: none;
     border-radius: 40px;
+    cursor: pointer;
 }
 
 /* Shared Style End Here */
@@ -118,6 +119,7 @@ body {
     border: 1px solid white;
     padding: 1rem 2.5rem;
     border-radius: 40px;
+    cursor: pointer;
 }
 
 .btn-continer {
@@ -304,6 +306,7 @@ body {
     font-weight: 600;
     border: none;
     border-radius: 40px;
+    cursor: pointer;
 }
 
 .bmi-text {
@@ -447,6 +450,7 @@ td {
     font-weight: 600;
     border: none;
     border-radius: 40px;
+    cursor: pointer;
 }
 .btn-size{
     padding-top: 3rem;
@@ -607,6 +611,7 @@ td {
     color: white;
     font-size: 1.25rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 .btn-entry{
     margin: 3rem auto;
@@ -615,6 +620,7 @@ td {
     border: none;
     padding: 1rem 2rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 .btn-entry a{
     text-decoration: none;
