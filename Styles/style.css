@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
+
 .inter-fonts {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -54,10 +55,19 @@ body {
     color: rgb(230, 83, 60);
 }
 
+.menubar ul {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    justify-content: flex-start;
+    padding: 0.6rem;
+    gap: 2rem;
+}
+
 .menubar ul li {
     list-style: none;
-    margin-left: 50px;
-    padding: 5px;
+
+    /* padding-left: 50px; */
+    /* padding: 1rem; */
     font-size: 1.25rem;
     /* border: 1px solid red; */
 }
@@ -315,11 +325,12 @@ body {
 }
 
 /* Bmi Style Section */
-.bmi-container{
+.bmi-container {
     justify-content: space-between;
     margin-top: 4rem;
     padding: 3rem 0;
 }
+
 .bmi-text h1 {
     font-size: 48px;
     font-weight: 900;
@@ -336,15 +347,17 @@ body {
 }
 
 
-.bmi-backgound{
+.bmi-backgound {
     background-color: rgb(34, 34, 34);
 }
-.bmi-heading{
+
+.bmi-heading {
     font-size: 28px;
     font-weight: 900;
     color: white;
     padding-bottom: 3rem;
 }
+
 .bmi-table,
 table,
 th,
@@ -353,6 +366,7 @@ td {
     border-collapse: collapse;
     padding: 1.5rem 2.5rem;
 }
+
 .bmi-title {
     color: white;
     font-size: 16px;
@@ -366,19 +380,21 @@ td {
 }
 
 /* bmi calculate */
-.bmi-child-1{
+.bmi-child-1 {
     max-width: 650px;
 }
-.input-container{
+
+.input-container {
     padding-top: 2rem;
 }
 
-.bmi-heading-1{
+.bmi-heading-1 {
     color: white;
     font-size: 32px;
     font-weight: 900;
 }
-.bmi-child-1 p{
+
+.bmi-child-1 p {
     font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
@@ -391,15 +407,16 @@ td {
 
 
 
-.bmi-input-container{
+.bmi-input-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     padding-top: 20px;
 }
-.bmi-input-container input{
+
+.bmi-input-container input {
     width: 100%;
-    height:50px;
+    height: 50px;
     color: rgb(24, 202, 48);
     background-color: rgba(255, 255, 255, 0.1);
     padding-left: 10px;
@@ -408,14 +425,16 @@ td {
     outline: none;
     font-size: 1rem;
 }
+
 /* input::placeholder{
     color: red;
 } */
 
-.bmi-select{
+.bmi-select {
     margin-top: 10px;
 }
-.gender select{
+
+.gender select {
     width: 100%;
     height: 50px;
     border-radius: 10px;
@@ -426,11 +445,13 @@ td {
     border: none;
     outline: none;
 }
-.bmi-select{
+
+.bmi-select {
     display: grid;
     grid-template-columns: 1fr;
 }
-.bmi-select select{
+
+.bmi-select select {
     height: 50px;
     width: 100%;
     border-radius: 10px;
@@ -442,7 +463,7 @@ td {
     outline: none;
 }
 
-.btn-primary-2{
+.btn-primary-2 {
     background-color: rgb(230, 83, 60);
     padding: 1rem 3rem;
     color: white;
@@ -452,20 +473,23 @@ td {
     border-radius: 40px;
     cursor: pointer;
 }
-.btn-size{
+
+.btn-size {
     padding-top: 3rem;
 }
+
 /* bmi calculate end */
 
 /* team meat style section start */
-.team-title{
+.team-title {
     color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 900;
     text-align: center;
     margin-top: 80px;
 }
-.team-description{
+
+.team-description {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     letter-spacing: 0.5px;
@@ -478,7 +502,7 @@ td {
 
 /* trainer list style */
 
-.trainer-container{
+.trainer-container {
     padding: 2.5rem;
     /* background-color: rgba(0,0,0,0.2); */
     background-color: #1A1A1A;
@@ -489,30 +513,34 @@ td {
     gap: 2.5rem;
     position: relative;
 }
+
 .trainer-list img {
     width: 100%;
     height: 100%;
     border-radius: 25px;
 }
 
-.trainer-list{
+.trainer-list {
     position: relative;
 }
-.trainer-name-container-1{
+
+.trainer-name-container-1 {
     position: absolute;
     bottom: 6%;
     left: 8%;
 }
 
-.trainer-name{
+.trainer-name {
     color: rgb(255, 255, 255);
     font-size: 1.25rem;
     font-weight: 900;
 }
-.trainer-title{
+
+.trainer-title {
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.5);
 }
+
 /* Meat our team section end */
 
 /* Creative Section style start here */
@@ -533,39 +561,45 @@ td {
 
 
 
-.blog-container{
+.blog-container {
     max-width: 70%;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
 }
-.blog-heading{
+
+.blog-heading {
     color: #e67e22;
     text-align: center;
     font-size: 3rem;
     padding-top: 6rem;
 }
-.blog-title{
+
+.blog-title {
     color: white;
     font-weight: 900;
     text-align: center;
     font-size: 4rem;
     /* padding-top: 5rem; */
 }
-.blog-content{
+
+.blog-content {
     max-width: 425px;
     padding-top: 2rem;
 }
-.blog-content img{
+
+.blog-content img {
     width: 100%;
     border-radius: 1rem;
 }
-.admin-content{
+
+.admin-content {
     gap: 1rem;
     align-items: center;
     padding-top: 0.8rem;
 }
-.blog-date{
+
+.blog-date {
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -574,38 +608,47 @@ td {
     text-align: center;
     /* align-items: center; */
 }
-.admin-info-container{
+
+.admin-info-container {
     padding-top: 4px;
 }
-.admin-title, .color-admin{
+
+.admin-title,
+.color-admin {
     color: white;
     font-weight: 600;
 }
-.blog-date{
+
+.blog-date {
     color: rgba(243, 225, 225, 0.918);
 }
-.admin-info{
+
+.admin-info {
     padding-left: 10px;
     gap: 5px;
     align-items: center;
 }
-.admin-info h5{
+
+.admin-info h5 {
     color: white;
     font-weight: 500;
     font-size: 0.95rem;
 }
-.color-file{
+
+.color-file {
     color: rgba(255, 255, 255, 0.87);
 }
-.blog-description{
+
+.blog-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     padding-top: 1.5rem;
 }
-.btn-read{
+
+.btn-read {
     margin-top: 1rem;
-    border:none;
+    border: none;
     padding: 1rem 2rem;
     background-color: #e79e5e;
     color: white;
@@ -613,7 +656,8 @@ td {
     border-radius: 1rem;
     cursor: pointer;
 }
-.btn-entry{
+
+.btn-entry {
     margin: 3rem auto;
     background-color: #ffbd03;
     font-size: 1.25rem;
@@ -622,92 +666,99 @@ td {
     border-radius: 1rem;
     cursor: pointer;
 }
-.btn-entry a{
+
+.btn-entry a {
     text-decoration: none;
     color: white;
 }
+
 /* Creative Section style end */
 
 
 
 /* footer section start */
-.footer-container-main{
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 1rem;
+.footer-container-main {
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
 }
-.footer-main-container{
-    max-width: 90%;
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.child-1 h1 {
+    font-size: 78px;
+    color: #E6533C;
+    margin: 0;
+}
+
+.child-1 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin: 0;
+    letter-spacing: 0.5px;
+    max-width: 70%;
+}
+
+.child-2 ul {
+    padding: 0;
+}
+
+.child-2 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.child-2 ul li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.child-2 ul li a {
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    padding-top: 20px;
+}
+.footer-container-main hr{
+    opacity: 0.6;
+    width: 90%;
     margin: 0 auto;
 }
-footer hr{
-    opacity: 0.6;
-    max-width: 95%;
-    margin: auto;
-}
-.footer-fitness{
-    max-width: 31%;
-}
-.footer-container{
-    justify-content: space-between;
-    padding: 3rem;
-    align-items: center;
-    
-}
-.footer-started-container{
-    gap: 15rem;
-}
-
-.footer-fitness h1{
-    font-size: 5.8rem;
-    color: rgb(230, 83, 60);
-    font-weight: 900;
-}
-.footer-fitness p{
-    color: rgba(255, 255, 255, 0.5);
-    /* max-width: 700px; */
-    font-size: 1.1rem;
-    font-weight: 400;
-    padding-top: 20px;
-    letter-spacing: 0.5px;
-}
-
-.footer-service{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-.footer-service ul{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-}
-.footer-service h1{
-    color: white;
-    font-size: 35px;
-    font-weight: 600;
-}
-.footer-service-1 h1{
-    color: white;
-    font-size: 35px;
-    font-weight: 600;
-}
-.footer-service ul li{
-    list-style: none;
-    text-decoration: none;
-}
-.footer-service ul li a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 22px;
-    gap: 3.5rem;
-}
-
 .footer-copyright{
     color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    padding: 2rem 0;
+    letter-spacing: 0.5px;
     text-align: center;
-    font-size: 1.5rem;
-    padding: 1.5rem 0;
 }
+
+/* .display-sizeing li{
+    display: flex;
+    flex-direction: column;
+}
+ */
+
+
+
+
+
+
+
+
+
+
 /* footer section end */
 
 .none {
@@ -760,14 +811,17 @@ footer hr{
         padding: .6rem 1rem;
         font-size: 1rem;
     }
+
     /* habites gym */
 
-    .habites-gym{
+    .habites-gym {
         margin: 0;
     }
-    .habites-gym h1{
+
+    .habites-gym h1 {
         font-size: 2.35rem;
     }
+
     .practice-container {
         flex-direction: column;
         gap: 2rem;
@@ -780,74 +834,90 @@ footer hr{
     .run-image img {
         margin-top: 2rem;
     }
+
     /* bmi secton */
     .bmi-text {
         font-size: 30px;
-        margin-left:5%;
+        margin-left: 5%;
     }
-    .input-container{
+
+    .input-container {
         padding-top: ;
     }
-    .bmi-container{
+
+    .bmi-container {
         flex-direction: column;
         gap: 3rem;
     }
 
     /* MEAT our team section */
-    .team-description{
+    .team-description {
         width: 100%;
     }
-    .trainer-container{
+
+    .trainer-container {
         grid-template-columns: 1fr;
     }
+
     /* creative section */
-    .blog-container{
+    .blog-container {
         flex-direction: column;
         width: 90%;
         align-items: start;
         margin: 0;
     }
-    .blog-content{
+
+    .blog-content {
         /* max-width: 350px; */
     }
-    .blog-title{
+
+    .blog-title {
         font-size: 1.7rem;
     }
-    .admin-content{
+
+    .admin-content {
         gap: 0;
     }
-    .admin-title{
+
+    .admin-title {
         font-size: 0.9rem;
     }
-    .admin-info h5{
+
+    .admin-info h5 {
         font-size: 0.6rem;
     }
-    .blog-date p{
+
+    .blog-date p {
         font-size: 0.9rem;
     }
-    .blog-description p{
+
+    .blog-description p {
         font-size: 0.8rem;
     }
 
     /* footer section */
-    .footer-container{
+    .footer-container {
         flex-direction: column;
-    }    
-    .footer-started-container{
+    }
+
+    .footer-started-container {
         padding-top: 2rem;
         padding-bottom: 2rem;
         flex-direction: column;
-        gap:2rem;
+        gap: 2rem;
     }
-    .footer-container{
+
+    .footer-container {
         margin: left;
         align-items: start;
         padding: 0;
     }
-    .footer-fitness{
+
+    .footer-fitness {
         max-width: 94%;
     }
-    .footer-fitness h1{
+
+    .footer-fitness h1 {
         font-size: 4.5rem;
-    }    
+    }
 }
