@@ -94,7 +94,7 @@ body {
 }
 
 .banner-child-1 {
-    max-width: 450px;
+    max-width: 580px;
 }
 
 .banner-child-1 h1 {
@@ -117,7 +117,15 @@ body {
     padding-top: 1.85rem;
 }
 
+.btn-continer {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0;
+    gap: 1.25rem;
+}
 .btn-download {
+    display: flex;
     font-size: 1.15rem;
     font-weight: 600;
     color: white;
@@ -128,12 +136,6 @@ body {
     cursor: pointer;
 }
 
-.btn-continer {
-    display: flex;
-    padding-top: 20px;
-    margin: 0;
-    gap: .5rem;
-}
 /* navbar end */
 
 .banner-container {
@@ -143,7 +145,10 @@ body {
 .healthy-image {
     position: relative;
 }
-
+.healthy-image img{
+    width: 100%;
+    height: 100%;
+}
 .video-tutorial {
     position: absolute;
     top: 73%;
@@ -702,8 +707,8 @@ td {
 
 .admin-title,
 .color-admin {
-    color: white;
-    font-weight: 600;
+    color: rgba(255, 255, 255, .9);
+    font-weight: 700;
 }
 
 .blog-date {
@@ -835,42 +840,25 @@ td {
     display: none;
 }
 
+
 /* media query */
 
 /* small device */
 @media screen and (max-width:576px) {
+    /* menubar */
     .menubar {
         display: none;
     }
-
     .hambarger-menu {
         display: block;
     }
 
-    .healthy-image img {
-        width: 70%;
-        height: 100%;
-    }
-
+    /* body images section */
     .banner-container {
         flex-direction: column;
     }
 
-    .video-tutorial {
-        top: 76%;
-        left: 2%;
-    }
-
-    .free-video-container {
-        top: 43%;
-        right: 9%;
-    }
-
-    .btn-continer {
-        display: flex;
-        justify-content: space-between;
-    }
-
+    
     .btn-primary {
         padding: .6rem 1rem;
         font-size: 1rem;
@@ -880,33 +868,66 @@ td {
         padding: .6rem 1rem;
         font-size: 1rem;
     }
-
     /* habites gym */
-
+    .healthy-image{
+        display: flex;
+        justify-content: center;
+    }
+    .healthy-image img {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
     .habites-gym {
         margin: 0;
     }
 
     .habites-gym h1 {
-        font-size: 2.35rem;
+        font-size: 2rem;
     }
 
     .practice-container {
         flex-direction: column;
         gap: 2rem;
     }
+    .video-tutorial {
+        top: 50%;
+        left: 9%;
+        padding: .7rem 1rem;
+        gap: 10px;
+    }
 
+    .free-video-container {
+        top: 7%;
+        right: 0;
+        padding: .5rem 1rem;
+    }
+    .free-video-num {
+        font-size: 1.8rem;
+    }
+    .free-video-title{
+        font-size: .6rem;
+    }
+    .video-title{
+        font-size: .6rem;
+    }
+    /* run section */
     .run-container {
         grid-template-columns: 1fr;
     }
-
     .run-image img {
         margin-top: 2rem;
+        object-fit: cover;
     }
-
+    .run-child h1{
+        font-size: 2.5rem;
+    }
     /* exercises section */
     .exercises-description{
         max-width: 90%;
+    }
+    .exercises-container h1, .bmi-text h1, .team-title {
+        font-size: 2.25rem;
     }
     .grid-1{
         grid-column: 1 / 7;
@@ -932,11 +953,16 @@ td {
     }
 
     /* bmi secton */
+    .bmi-heading, .bmi-heading-1{
+        font-size: 1.25rem;
+    }
+    .bmi-table, table, th, td{
+        padding: 1rem 1.5rem;
+    }
     .bmi-text {
         font-size: 30px;
         margin-left: 5%;
     }
-
     .input-container {
         padding-top: ;
     }
@@ -987,8 +1013,8 @@ td {
         font-size: 0.7rem;
     }
 
-    .blog-description p {
-        font-size: 0.8rem;
+    .blog-description p, .team-description, .run-child p, .exercises-container p {
+        font-size: 0.9rem;
     }
 
     /* footer section */
